@@ -1,0 +1,32 @@
+export default function Navbar() {
+  return (
+    <div className=" border border-red-500 h-28 flex justify-center items-center">
+      <ul className=" flex justify-between w-60">
+        <li>
+          <a href="/womens">Womens</a>
+        </li>
+        <li>
+          <a href="/mens">Mens</a>
+        </li>
+        <li>
+          <a href="/sale">Sale</a>
+        </li>
+        <li>
+          <a href="/jeans">Jeans</a>
+        </li>
+      </ul>
+
+      <ul>
+        <li>
+          <a>join</a>
+        </li>
+        <li>
+          <a>login</a>
+        </li>
+        <li>
+          <a>cart</a>
+        </li>
+      </ul>
+    </div>
+  );
+}

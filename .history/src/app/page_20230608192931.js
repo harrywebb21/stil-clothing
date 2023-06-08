@@ -14,7 +14,7 @@ export default function Home() {
   return (
     <>
       <div className="mb-6">
-        <div className="flex justify-center items-center px-24">
+        <div className="flex justify-center items-center">
           <Navbar />
         </div>
         <div className="flex flex-col justify-center items-center px-24 gap-10">
